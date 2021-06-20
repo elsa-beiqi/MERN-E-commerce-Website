@@ -1,0 +1,300 @@
+
+
+  .invoice-section {
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .no-section {
+    color: black;
+    padding: 20px 0;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .colSMOLBB{
+     
+      margin-bottom: 15px;
+      padding-right: 15px;
+      padding-left: 15px;
+      flex: 1 1;
+      max-width: 50%;
+      width: 550px;
+      flex-basis: 50%;
+  
+  }
+  .re-section {
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .invoice-row {
+    align-items: center;
+  }
+  .formX-input{
+    margin-bottom: 0.5rem;
+    width: 50%;
+    height: 40px;
+  }
+  .row {
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+  .containerRE{
+    
+      z-index: 1;
+      width: 100%;
+      max-width: 1000px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 50px;
+      padding-left: 50px;
+    display: flex;
+  }
+  .weneedmargin{
+    margin-top: 70px;;
+  }
+  .containerINBOX{
+    z-index: 1;
+    width: 100%;
+    max-width: 1000px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-right: 70px;
+    padding-left: 70px;
+  display: flex;
+}
+  .col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .colIN {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 40%;
+    flex-basis: 40%;
+  }
+  .colINB {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 40%;
+    flex-basis: 40%;
+  }
+  .colDIS{
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .colRE{
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 33%;
+    flex-basis: 33%;
+  }
+  .col2 {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 20%;
+    flex-basis: 20%;
+  }
+  .col3 {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 15%;
+    flex-basis: 14%;
+  }
+  .col4 {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 30%;
+    flex-basis: 30%;
+  }
+  
+  .invoice-text-wrapper {
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+  .invoice-ordersummary{
+    color: #1c2237;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+  .invoice-heading{
+    color: #1c2237;
+    font-size: 23px;
+    line-height: 16px;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+  .processing {
+    color: #3853e9;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .in-transit{
+    color: navy;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .delivered{
+    color: green;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .cancelled{
+    color: red;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .heading {
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #f7f8fa;
+  }
+  .id{
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #1c2237;
+  }
+  .dark {
+    color: #1c2237;
+  }
+  
+  .darkBg {
+    background-color: #1c2237;
+  }
+  
+  .invoice-subtitle {
+    max-width: 440px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+  .invoice-subtitle-id {
+    max-width: 440px;
+    margin-top: -18px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #6e6e6e;
+    margin-bottom: 20px;
+  }
+  .invoice-subtitle-date {
+    max-width: 440px;
+    margin-top: -15px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 800;
+    color: #3b3d44;
+  }
+  .invoice-subtitle-info {
+    max-width: 440px;
+    margin-top: -15px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 800;
+    color: #3b3d44;
+  }
+  .invoice-img-wrapper {
+    max-width: 555px;
+  }
+  .refund-img-wrapper{    
+    max-width: 555px;
+    margin-bottom: 28px;
+  }
+  .shmolspace{
+    margin-bottom:10px;
+  }
+  .shmolspaces{
+    margin-bottom:-3px;
+  }
+  .invoice-img {
+    max-width: 95%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 10px;
+    padding-right: 0;
+  }
+  
+  img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .container {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .invoice-text-wrapper {
+      padding-bottom: 65px;
+    }
+  
+    .col {
+      max-width: 100%;
+      flex-basis: 100%;
+    }
+  }
